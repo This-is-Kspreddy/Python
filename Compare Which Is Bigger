@@ -1,0 +1,8 @@
+# To Print Which Number Is Bigger
+a=10
+b=20
+if (a>b):
+  print (a,'is bigger than ',b ,'\n''So, a is greater than b')
+else:
+  print (b,'is bigger than ',a ,'\n''So, b is greater than a')
+
