@@ -7,10 +7,8 @@ ac=int(input("Enter Accounting Marks : "))
 ee=int(input("Enter Environmental Education Marks : "))
 ob=int(input("Enter Online Business Marks : "))
 print("Total Marks : ",t+e+os+java+ac+ee+ob)
-print("Average Marks : " , t+e+os+java+ac+ee+ob/8);
+print("Average Marks : " , (t+e+os+java+ac+ee+ob)/7);
 if t>=35 and e>=35 and os>=35 and java>=35 and ac>=35 and ee>=35 and ob>=35 :
     print('Congractulations...! You was Passed')
 else:
         print('Better Luck Next Time...! Never Giveup')
-#if t<=95 and e<=95 and os<=95 and java<=95 and ac<=95 and ee<=95 and ob<=95 :
-  #  print("Outstanding Performance")
