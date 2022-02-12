@@ -1,0 +1,24 @@
+#To Print Grade Of a Student
+t=int(input("Enter Telugu Marks : "))
+e=int(input("Enter English Marks : "))
+os=int(input("Enter Operating Systems Marks : "))
+java=int(input("Enter Java Marks : "))
+ac=int(input("Enter Accounting Marks : "))
+ee=int(input("Enter Environmental Education Marks : "))
+ob=int(input("Enter Online Business Marks : "))
+print("Total Marks : ",t+e+os+java+ac+ee+ob)
+avg=(t+e+os+java+ac+ee+ob)/7;
+if(avg>=91):
+       print('O-grade')
+elif(avg>=81):
+      print('A-grade')
+elif(avg>=71):
+      print('B-grade')
+elif(avg>=61):
+      print('C-grade')
+elif(avg>=51):
+    print('D-grade')
+elif(avg>=41):
+      print('pass')
+elif(avg<=40):
+         print('fail')
