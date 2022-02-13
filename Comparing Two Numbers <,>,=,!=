@@ -1,16 +1,10 @@
-x1 = [10, 20, 30]
-
-# Here a new list x2 is created using x1
-x2 = list(x1)
-
-# The "==" operator would produce "Yes"
-if x1 == x2:
-	print("Yes")
-else:
-	print("No")
-
-# But "is" operator would produce "No"
-if x1 is x2:
-	print("Yes")
-else:
-	print("No")
+a=int(input("Enter a number : "))
+b=int(input("Enter a number : "))
+if a>b:
+      print(a, 'is Greater than ' ,b)
+elif b>a:
+     print(a, 'is Not Greater than ' ,b)
+elif a==b:
+     print(a, 'is Equal to ',b)
+else :
+    print(a, 'is Not Equal to ',b)
