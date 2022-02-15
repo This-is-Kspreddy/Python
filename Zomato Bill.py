@@ -12,7 +12,7 @@ c4=int(input('Number Of Bongu Chicken : '))
 c5=int(input('Number Of Pot Biryani : '))
 cc=input('Enter Coupon Code :')
 bill=(bir*c1)+(nv_bir*c2)+(dum_bir*c3)+(bong_chi*c4)+(pot_bir*c5)
-#print('Bill Payable : ',bill)
+print('Bill Payable : ',bill)
 if bill<=500:
     if cc=='MYBILL' :
         dis=bill*50/100
