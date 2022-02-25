@@ -1,0 +1,14 @@
+x=input() 
+1-x.split()
+o=[]
+e=[]
+for i in 1:
+i-int (1)
+if 192=0:
+a.append (1)
+else:
+o.append (1)
+for i in range (len (o)):
+print (o [1], end='')
+for i in range (len (e)) :
+print('e[1], end='')
