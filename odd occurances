@@ -1,8 +1,8 @@
-l=[1,2,1,3,2,4,2,5,4,6,5,7,6,4]
-l1=[]
-for i in l:
-    if i not in l1:
-        l1.append(i)
-for j in l1:
-    if l.count(j)==1:
-            print(j)
+x=[1,3,1,2,4,6,6] 
+l=[] 
+l1=[]  
+for i in x: 
+    if x.count(i)==1: 
+         l1.append(i) 
+print(x) 
+print(l1)
